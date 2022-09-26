@@ -1,3 +1,3 @@
-import { createContext } from "react/cjs/react.production.min";
+import { createContext } from "react";
 
 export const LevelContext = createContext(1);

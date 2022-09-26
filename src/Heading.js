@@ -1,6 +1,5 @@
-import { useContext } from "react/cjs/react.production.min";
-
-import LevelContext from "./LevelContext";
+import { useContext } from "react";
+import { LevelContext } from "./LevelContext.js";
 
 export default function Heading({ children }) {
   const level = useContext(LevelContext);
